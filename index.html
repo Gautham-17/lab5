@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Auth & Search Lab</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Login / Signup</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="auth('signup')">Signup</button>
+        <button onclick="auth('login')">Login</button>
+
+        <hr>
+
+        <h2>Keyword Search</h2>
+        <input type="text" id="keyword" placeholder="Search users...">
+        <button onclick="search()">Search</button>
+        <ul id="results"></ul>
+    </div>
+    <script src="client.js"></script>
+</body>
+</html>
